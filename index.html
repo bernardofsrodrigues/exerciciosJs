@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrada e saída js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+</head>
+<body>
+    <main>
+        <header class="obterPassword">
+            <button id="gerador" onclick="gerarSenhaAleatoria()">Obter senha:</button><br><br>
+            <p id="gerado"></p>
+        </header>
+        <section class="entrada">
+            <h1>Festa VIP</h1>
+            <p>Bem-vindo a festa senhor(a):</p>
+            <input type="text" placeholder="Seu nome" id="nome"> 
+            <p>Qual sua senha de acesso senhor(a)?</p>
+            <input type="password" placeholder="Sua senha" id="senha"> <br><br><br>
+            <button onclick="verificarSenha()">Verificar acesso</button>
+            <p id="resposta"></p>
+        </section>
+    </main>
+
+</body>
+</html>

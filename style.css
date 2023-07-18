@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(188, 234, 255);
+}
+
+.obterPassword {
+    background-color: aquamarine;
+    border: solid 0.7px;
+    justify-content: space-evenly;
+    margin-right: 78%;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+#gerado {
+    text-align: center;
+    font-size: larger;
+    margin-top: auto;
+    padding-left: 20%;
+    align-items: baseline;
+}
+
+.entrada {
+    background-color: aquamarine;
+    border: solid;
+    text-align: center;
+    align-items: center;
+    margin-top: 6%;
+    padding-bottom: 3%;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 0 20% 0 20%;
+}
